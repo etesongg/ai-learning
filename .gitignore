@@ -3,3 +3,7 @@
 */*.png
 */*.jpg
 */*.pdf
+
+# streamlit 폴더 안의 폴더는 push
+!streamlit/**/
+streamlit/*/*/
