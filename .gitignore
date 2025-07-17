@@ -11,3 +11,8 @@ streamlit/*/*/
 # miniprj2 폴더 안의 폴더는 push
 !miniprj2/**/
 miniprj2/*/*/
+
+# 용량 큰 데이터 제외
+miniprj2/도로명주소전자지도_경상남도/TL_SPBD_BULD.dbf
+miniprj2/도로명주소전자지도_경상남도/TL_SPBD_BULD.shp
+miniprj2/전처리결과/건물_4326.dbf
