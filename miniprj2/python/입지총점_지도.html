@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_341cc6cc6d45303549ac914e975edbd5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_341cc6cc6d45303549ac914e975edbd5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_341cc6cc6d45303549ac914e975edbd5 = L.map(
+                "map_341cc6cc6d45303549ac914e975edbd5",
+                {
+                    center: [35.222303608, 128.85623030000002],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_908586ea1bae27884ad16c86b8d40ebb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_908586ea1bae27884ad16c86b8d40ebb.addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var marker_3b8ad6e57aa445f39e36e6fc1867fcbf = L.marker(
+                [35.17258768, 128.7862082],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_76fdbea2f161bd1394b8978227fcd38c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f7feb15241ab557d84b8ca035437abe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5abb0025230d0917f0aa1a794f8832fc = $(`<div id="html_5abb0025230d0917f0aa1a794f8832fc" style="width: 100.0%; height: 100.0%;">gid: 마라17aa87aa<br>입지총점: 0.05</div>`)[0];
+                popup_6f7feb15241ab557d84b8ca035437abe.setContent(html_5abb0025230d0917f0aa1a794f8832fc);
+            
+        
+
+        marker_3b8ad6e57aa445f39e36e6fc1867fcbf.bindPopup(popup_6f7feb15241ab557d84b8ca035437abe)
+        ;
+
+        
+    
+    
+                marker_3b8ad6e57aa445f39e36e6fc1867fcbf.setIcon(icon_76fdbea2f161bd1394b8978227fcd38c);
+            
+    
+            var marker_a7080f67af257f37ac81280891a8cb96 = L.marker(
+                [35.16784508, 128.808094],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_054b655ed0a2259614ea309f1e2787cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54f406c4ac91e49c0905630268b9d790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44e878d6833cc5c2193b93bdefffa1e0 = $(`<div id="html_44e878d6833cc5c2193b93bdefffa1e0" style="width: 100.0%; height: 100.0%;">gid: 마라19aa86ba<br>입지총점: 0.05</div>`)[0];
+                popup_54f406c4ac91e49c0905630268b9d790.setContent(html_44e878d6833cc5c2193b93bdefffa1e0);
+            
+        
+
+        marker_a7080f67af257f37ac81280891a8cb96.bindPopup(popup_54f406c4ac91e49c0905630268b9d790)
+        ;
+
+        
+    
+    
+                marker_a7080f67af257f37ac81280891a8cb96.setIcon(icon_054b655ed0a2259614ea309f1e2787cb);
+            
+    
+            var marker_47f2f864bc7b8ba1ffb34945622d9a28 = L.marker(
+                [35.18794933, 128.8248905],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_a9798ed8f07daf62c528be8c51d6db18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac7743b288a20bcd6319d46d396910eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cca4ebc7a16282eddf1258be2be878e = $(`<div id="html_0cca4ebc7a16282eddf1258be2be878e" style="width: 100.0%; height: 100.0%;">gid: 마라20ba88bb<br>입지총점: 0.03</div>`)[0];
+                popup_ac7743b288a20bcd6319d46d396910eb.setContent(html_0cca4ebc7a16282eddf1258be2be878e);
+            
+        
+
+        marker_47f2f864bc7b8ba1ffb34945622d9a28.bindPopup(popup_ac7743b288a20bcd6319d46d396910eb)
+        ;
+
+        
+    
+    
+                marker_47f2f864bc7b8ba1ffb34945622d9a28.setIcon(icon_a9798ed8f07daf62c528be8c51d6db18);
+            
+    
+            var marker_125a4ac8622281c3cdfeb578d679a9b2 = L.marker(
+                [35.23521624, 128.8311534],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_f3fce8700cdee8bead17f6aeac961c14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c04bc0766092198616da3bf066b1aa8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5480063c86741ba598a47b06def1ad6 = $(`<div id="html_b5480063c86741ba598a47b06def1ad6" style="width: 100.0%; height: 100.0%;">gid: 마라21aa94aa<br>입지총점: 0.04</div>`)[0];
+                popup_5c04bc0766092198616da3bf066b1aa8.setContent(html_b5480063c86741ba598a47b06def1ad6);
+            
+        
+
+        marker_125a4ac8622281c3cdfeb578d679a9b2.bindPopup(popup_5c04bc0766092198616da3bf066b1aa8)
+        ;
+
+        
+    
+    
+                marker_125a4ac8622281c3cdfeb578d679a9b2.setIcon(icon_f3fce8700cdee8bead17f6aeac961c14);
+            
+    
+            var marker_340062b41c14069d29670df1a51044e4 = L.marker(
+                [35.16532211, 128.8327582],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_f5081c79593dc799d96042f77846a4ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_090930ff2d86917835596a1a8af18cf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_387bf9a0a636161e3ae78185e8ec0c92 = $(`<div id="html_387bf9a0a636161e3ae78185e8ec0c92" style="width: 100.0%; height: 100.0%;">gid: 마라21ab86ab<br>입지총점: 0.07</div>`)[0];
+                popup_090930ff2d86917835596a1a8af18cf7.setContent(html_387bf9a0a636161e3ae78185e8ec0c92);
+            
+        
+
+        marker_340062b41c14069d29670df1a51044e4.bindPopup(popup_090930ff2d86917835596a1a8af18cf7)
+        ;
+
+        
+    
+    
+                marker_340062b41c14069d29670df1a51044e4.setIcon(icon_f5081c79593dc799d96042f77846a4ae);
+            
+    
+            var marker_559d6fa5385c367af70c53fba52cd56a = L.marker(
+                [35.25741642, 128.8617449],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_eb8320d1bdf5f7737e286e4a5ac4af24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_537783bf67298708b88ae50d3c4ce2c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7b4d4d0e65e040501199d22679699b3 = $(`<div id="html_d7b4d4d0e65e040501199d22679699b3" style="width: 100.0%; height: 100.0%;">gid: 마라23bb96ba<br>입지총점: 0.06</div>`)[0];
+                popup_537783bf67298708b88ae50d3c4ce2c0.setContent(html_d7b4d4d0e65e040501199d22679699b3);
+            
+        
+
+        marker_559d6fa5385c367af70c53fba52cd56a.bindPopup(popup_537783bf67298708b88ae50d3c4ce2c0)
+        ;
+
+        
+    
+    
+                marker_559d6fa5385c367af70c53fba52cd56a.setIcon(icon_eb8320d1bdf5f7737e286e4a5ac4af24);
+            
+    
+            var marker_dc617a25c58a8bbfc34d0b0d4aa6bf3b = L.marker(
+                [35.27090719, 128.8647192],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_e8464c56626bf474fce3dd93aa30a2b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ae6613f1d3b8aca4b244292f44775d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e94b2291b21f44bb55f86c80cc0a1dac = $(`<div id="html_e94b2291b21f44bb55f86c80cc0a1dac" style="width: 100.0%; height: 100.0%;">gid: 마라24aa98aa<br>입지총점: 0.04</div>`)[0];
+                popup_8ae6613f1d3b8aca4b244292f44775d0.setContent(html_e94b2291b21f44bb55f86c80cc0a1dac);
+            
+        
+
+        marker_dc617a25c58a8bbfc34d0b0d4aa6bf3b.bindPopup(popup_8ae6613f1d3b8aca4b244292f44775d0)
+        ;
+
+        
+    
+    
+                marker_dc617a25c58a8bbfc34d0b0d4aa6bf3b.setIcon(icon_e8464c56626bf474fce3dd93aa30a2b5);
+            
+    
+            var marker_8b393eaff60e0e3e010af9dfa9a251be = L.marker(
+                [35.2708139, 128.8729631],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_97637451db8df94c66d1c848a11ece96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb46eb49c49e2355e23cd6412062e6bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90d01af371d780c469b119f3dca91f1c = $(`<div id="html_90d01af371d780c469b119f3dca91f1c" style="width: 100.0%; height: 100.0%;">gid: 마라24bb98aa<br>입지총점: 0.05</div>`)[0];
+                popup_cb46eb49c49e2355e23cd6412062e6bc.setContent(html_90d01af371d780c469b119f3dca91f1c);
+            
+        
+
+        marker_8b393eaff60e0e3e010af9dfa9a251be.bindPopup(popup_cb46eb49c49e2355e23cd6412062e6bc)
+        ;
+
+        
+    
+    
+                marker_8b393eaff60e0e3e010af9dfa9a251be.setIcon(icon_97637451db8df94c66d1c848a11ece96);
+            
+    
+            var marker_e17d537dfabe1c38b746a90f830afa46 = L.marker(
+                [35.25247019, 128.9001324],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_089cf93f4f2a44adc832dda7abe183e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dae1fa829020344f2540fdfc9a4c17bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edaba74a48ae44b249efc41b8833fed7 = $(`<div id="html_edaba74a48ae44b249efc41b8833fed7" style="width: 100.0%; height: 100.0%;">gid: 마라27ab96aa<br>입지총점: 0.08</div>`)[0];
+                popup_dae1fa829020344f2540fdfc9a4c17bc.setContent(html_edaba74a48ae44b249efc41b8833fed7);
+            
+        
+
+        marker_e17d537dfabe1c38b746a90f830afa46.bindPopup(popup_dae1fa829020344f2540fdfc9a4c17bc)
+        ;
+
+        
+    
+    
+                marker_e17d537dfabe1c38b746a90f830afa46.setIcon(icon_089cf93f4f2a44adc832dda7abe183e4);
+            
+    
+            var marker_5c32924ceb5b37064ecf4d486b39108d = L.marker(
+                [35.24250794, 128.9796391],
+                {
+}
+            ).addTo(map_341cc6cc6d45303549ac914e975edbd5);
+        
+    
+            var icon_c3a916a0d1da2ba62dd0b805fcf231ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edad7cd626dca0eff43d513f569ee819 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ba754e09abdd375e47c55097c09d935 = $(`<div id="html_2ba754e09abdd375e47c55097c09d935" style="width: 100.0%; height: 100.0%;">gid: 마라34ba95aa<br>입지총점: 0.03</div>`)[0];
+                popup_edad7cd626dca0eff43d513f569ee819.setContent(html_2ba754e09abdd375e47c55097c09d935);
+            
+        
+
+        marker_5c32924ceb5b37064ecf4d486b39108d.bindPopup(popup_edad7cd626dca0eff43d513f569ee819)
+        ;
+
+        
+    
+    
+                marker_5c32924ceb5b37064ecf4d486b39108d.setIcon(icon_c3a916a0d1da2ba62dd0b805fcf231ad);
+            
+</script>
+</html>
